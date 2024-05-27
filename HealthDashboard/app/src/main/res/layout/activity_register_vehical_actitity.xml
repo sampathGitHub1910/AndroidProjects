@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- EditText for Vehicle Number -->
+        <EditText
+            android:id="@+id/vehicle_number_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Vehicle Number"
+            android:inputType="text"
+            android:padding="12dp"
+            tools:ignore="Autofill,HardcodedText,TextFields" />
+
+        <!-- EditText for Vehicle Name -->
+        <EditText
+            android:id="@+id/vehicle_name_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Vehicle Name"
+            android:inputType="text"
+            android:padding="12dp"
+            android:layout_marginTop="8dp"
+            tools:ignore="Autofill,HardcodedText" />
+
+        <!-- EditText for Battery Condition -->
+        <EditText
+            android:id="@+id/battery_condition_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Battery Condition"
+            android:inputType="text"
+            android:padding="12dp"
+            android:layout_marginTop="8dp"
+            tools:ignore="Autofill,HardcodedText"/>
+
+        <!-- EditText for Gas Remaining -->
+        <EditText
+            android:id="@+id/gas_remaining_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Gas Remaining"
+            android:inputType="number"
+            android:padding="12dp"
+            android:layout_marginTop="8dp"
+            tools:ignore="Autofill,HardcodedText" />
+
+        <!-- EditText for Temperature -->
+        <EditText
+            android:id="@+id/temperature_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Temperature"
+            android:inputType="number"
+            android:padding="12dp"
+            android:layout_marginTop="8dp"
+            tools:ignore="Autofill,HardcodedText"/>
+
+        <!-- EditText for Pressure -->
+        <EditText
+            android:id="@+id/pressure_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Pressure"
+            android:inputType="number"
+            android:padding="12dp"
+            android:layout_marginTop="8dp"
+            tools:ignore="Autofill,HardcodedText"/>
+
+        <!-- Button to register the new vehicle -->
+        <Button
+            android:id="@+id/register_vehicle_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register Vehicle"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+</ScrollView>
