@@ -1,0 +1,50 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/vehicleNoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vehicle No"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/vehicleNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vehicle Name"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/batteryConditionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Battery Condition"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/gasRemainingTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gas Remaining"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/temperatureTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temperature"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/pressureTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pressure"
+        tools:ignore="HardcodedText" />
+</LinearLayout>

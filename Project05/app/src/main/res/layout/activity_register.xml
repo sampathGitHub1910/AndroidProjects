@@ -1,0 +1,63 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/vehicleNoEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vehicle No"
+        tools:ignore="Autofill,HardcodedText"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/vehicleNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vehicle Name"
+        tools:ignore="Autofill,HardcodedText"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/batteryConditionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Battery Condition"
+        tools:ignore="Autofill,HardcodedText"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/gasRemainingEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gas Remaining"
+        tools:ignore="Autofill,HardcodedText"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/temperatureEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Temperature"
+        tools:ignore="Autofill,HardcodedText"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/pressureEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pressure"
+        tools:ignore="Autofill,HardcodedText"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
